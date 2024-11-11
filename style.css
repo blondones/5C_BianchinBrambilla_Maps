@@ -1,11 +1,66 @@
-#map {
-    height: 850px;
-    width: 100%;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 32px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
 }
 
 #input-section {
-    margin: 20px;
-    width: 30%;
-    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+#input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+#map {
+    height: 70vh;
+    width: 100%;
+    border-top: 3px solid #007bff;
+}
+
+body {
+    padding-top: 20px;
 }
